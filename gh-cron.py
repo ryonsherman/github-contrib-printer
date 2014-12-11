@@ -7,14 +7,16 @@ import argparse
 # parse script arguments
 parser = argparse.ArgumentParser()
 parser.add_argument('msg', help="output message")
+parser.add_argument('user', help="github user")
 parser.add_argument('repo', help="github repo")
 args = parser.parse_args()
 
 # assign runtime variables
 num = 20
+user = args.user
 repo = args.repo
 msg  = ''.join(map(str.upper, args.msg))
-cron = "00 12 {day:2} {month:2} * {path} {repo} {num}"
+cron = "00 12 {day:2} {month:2} * {path} {user} {repo} {num}"
 path = os.path.dirname(os.path.abspath(__file__))
 path = os.path.join(path, 'gh-print.py')
 date = datetime.date.today()
@@ -154,7 +156,7 @@ if date.weekday():
 
 # output cron tab
 print "# gh-print '%s' begin" % msg
-for ch in msg:
+for ch in ''.join(map(lambda x: x + (' ' if x != ' ' else ''), msg)).strip():
     print "# gh-print character '%s'" % ch
     if ch not in matrix: continue
     for week in matrix[ch]:
