@@ -7,12 +7,16 @@ import argparse
 # parse script arguments
 parser = argparse.ArgumentParser()
 parser.add_argument('msg', help="output message")
+parser.add_argument('repo', help="github repo")
 args = parser.parse_args()
 
 # assign runtime variables
+num = 20
+repo = args.repo
 msg  = ''.join(map(str.upper, args.msg))
-cron = "00 12 {day:2} {month:2} * {path} 20"
-path = os.path.join(os.getcwd(), 'gh-print.sh')
+cron = "00 12 {day:2} {month:2} * {path} {repo} {num}"
+path = os.path.dirname(os.path.abspath(__file__))
+path = os.path.join(path, 'gh-print.py')
 date = datetime.date.today()
 
 # define character matrix
@@ -30,7 +34,12 @@ matrix = {
     # '?': [],
 
     # numerals
-    # '0': [],
+    '0': [
+        (0, 0, 1, 1, 1, 0, 0),
+        (0, 1, 0, 1, 0, 1, 0),
+        (0, 1, 0, 1, 0, 1, 0),
+        (0, 0, 1, 1, 1, 0, 0)
+    ],
     # '1': [],
     # '2': [],
     # '3': [],
@@ -43,8 +52,18 @@ matrix = {
     
     # alpha
     # 'A': [],
-    # 'B': [],
-    # 'C': [],
+    'B': [
+        (0, 0, 1, 1, 1, 0, 0),
+        (0, 1, 0, 1, 0, 1, 0),
+        (0, 1, 0, 1, 0, 1, 0),
+        (0, 0, 1, 0, 1, 0, 0)
+    ],
+    'C': [
+        (0, 0, 1, 1, 1, 0, 0),
+        (0, 1, 0, 0, 0, 1, 0),
+        (0, 1, 0, 0, 0, 1, 0),
+        (0, 0, 1, 0, 1, 0, 0)
+    ],
     'D': [
         (0, 1, 1, 1, 1, 1, 0),
         (0, 1, 0, 0, 0, 1, 0),
@@ -57,7 +76,12 @@ matrix = {
         (0, 1, 0, 1, 0, 1, 0),
         (0, 1, 0, 1, 0, 1, 0)
     ],
-    # 'F': [],
+    'F': [
+        (0, 1, 1, 1, 1, 1, 0),
+        (0, 1, 0, 1, 0, 0, 0),
+        (0, 1, 0, 1, 0, 0, 0),
+        (0, 1, 0, 0, 0, 0, 0)
+    ],
     # 'G': [],
     'H': [
         (0, 1, 1, 1, 1, 1, 0),
@@ -65,8 +89,18 @@ matrix = {
         (0, 0, 0, 1, 0, 0, 0),
         (0, 1, 1, 1, 1, 1, 0)
     ],
-    # 'I': [],
-    # 'J': [],
+    'I': [
+        (0, 1, 0, 0, 0, 1, 0),
+        (0, 1, 1, 1, 1, 1, 0),
+        (0, 1, 1, 1, 1, 1, 0),
+        (0, 1, 0, 0, 0, 1, 0),
+    ],
+    'J': [
+        (0, 1, 0, 0, 0, 0, 0),
+        (0, 1, 1, 1, 1, 1, 0),
+        (0, 1, 0, 0, 0, 1, 0),
+        (0, 1, 0, 0, 1, 0, 0)
+    ],
     # 'K': [],
     'L': [
         (0, 1, 1, 1, 1, 1, 0),
@@ -109,7 +143,6 @@ matrix = {
         (0, 0, 1, 0, 0, 0, 0),
         (0, 1, 0, 0, 0, 0, 0)
     ]
-    # 'Y': [],
     # 'Z': []
 }
 
