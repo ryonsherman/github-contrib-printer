@@ -1,120 +1,129 @@
 # gh-print 'HELLO WORLD' begin
 # gh-print character 'H'
-00 12 16 12 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 17 12 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 18 12 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 19 12 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 20 12 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 25 12 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  1  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  6  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  7  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  8  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  9  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 10  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
+00 12 16 12 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 17 12 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 18 12 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 19 12 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 20 12 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 25 12 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  1  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  6  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  7  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  8  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  9  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 10  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+# gh-print character ' '
 # gh-print character 'E'
-00 12 13  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 14  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 15  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 16  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 17  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 20  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 22  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 24  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 27  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 29  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 31  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  3  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  5  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  7  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
+00 12 20  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 21  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 22  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 23  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 24  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 27  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 29  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 31  1 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  3  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  5  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  7  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 10  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 12  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 14  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+# gh-print character ' '
 # gh-print character 'L'
-00 12 10  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 11  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 12  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 13  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 14  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 21  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 28  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  7  3 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
+00 12 24  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 25  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 26  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 27  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 28  2 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  7  3 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 14  3 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 21  3 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+# gh-print character ' '
 # gh-print character 'L'
-00 12 10  3 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 11  3 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 12  3 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 13  3 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 14  3 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 21  3 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 28  3 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  4  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
+00 12 31  3 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  1  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  2  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  3  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  4  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 11  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 18  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 25  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+# gh-print character ' '
 # gh-print character 'O'
-00 12  8  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  9  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 10  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 14  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 18  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 21  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 25  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 29  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 30  4 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  1  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
+00 12  6  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  7  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  8  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 12  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 16  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 19  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 23  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 27  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 28  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 29  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+# gh-print character ' '
 # gh-print character ' '
 # gh-print character 'W'
-00 12 12  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 13  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 14  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 15  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 23  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 27  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 28  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 29  5 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  6  6 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  9  6 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 10  6 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 11  6 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 12  6 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
+00 12 16  6 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 17  6 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 18  6 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 19  6 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 27  6 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  1  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  2  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  3  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 11  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 14  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 15  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 16  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 17  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+# gh-print character ' '
 # gh-print character 'O'
-00 12 17  6 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 18  6 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 19  6 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 23  6 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 27  6 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 30  6 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  4  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  8  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  9  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 10  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
+00 12 29  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 30  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 31  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  4  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  8  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 11  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 15  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 19  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 20  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 21  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+# gh-print character ' '
 # gh-print character 'R'
-00 12 14  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 15  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 16  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 17  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 18  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 21  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 23  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 28  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 30  7 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  5  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  7  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  8  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
+00 12  1  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  2  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  3  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  4  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  5  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  8  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 10  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 15  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 17  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 23  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 25  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 26  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+# gh-print character ' '
 # gh-print character 'L'
-00 12 11  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 12  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 13  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 14  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 15  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 22  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 29  8 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  5  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
+00 12  6 10 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  7 10 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  8 10 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  9 10 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 10 10 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 17 10 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 24 10 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 31 10 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+# gh-print character ' '
 # gh-print character 'D'
-00 12  8  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  9  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 10  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 11  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 12  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 15  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 19  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 22  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 26  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12 30  9 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  1 10 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
-00 12  2 10 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.sh 20
+00 12 10 11 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 11 11 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 12 11 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 13 11 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 14 11 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 17 11 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 21 11 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 24 11 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12 28 11 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  2 12 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  3 12 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
+00 12  4 12 * /home/ryon.sherman/Development/git/github-contrib-printer/gh-print.py `cat email` `cat user`@gh-printer-debug/print-hello-world 20
 # gh-print 'HELLO WORLD' end
